@@ -1,0 +1,31 @@
+.stories {
+  padding: 40px 0;
+  background: #e77817;
+}
+
+.stories-clients {
+  padding-top: 40px;
+}
+
+.client-photo {
+  border: 5px solid #fffcc8;
+  border-radius: 100%;
+  height: auto;
+  display: inline-block;
+  float: left;
+  width: 160px;
+}
+
+.client-details {
+  display: inline-block;
+  max-width: 270px;
+  margin-left: 20px;
+}
+
+.client-details .text-small {
+  display: block;
+}
+
+.client-details .text-medium {
+  margin-bottom: 20px;
+}

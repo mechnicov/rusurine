@@ -1,0 +1,19 @@
+.business {
+  background: #e77817;
+  padding: 40px;
+}
+
+.business-offer {
+  padding-top: 60px;
+}
+
+.business-pot {
+  border: 5px solid #f8c300;
+  border-radius: 100%;
+  display:block;
+  margin:auto;
+}
+
+.business .text-medium {
+  margin-bottom: 15px;
+}
