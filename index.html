@@ -31,9 +31,15 @@
   <script src="js/jquery.formstyler.min.js"></script>
   <script src="js/formstyler.js"></script>
   <script src="js/formvalidator.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/header.js"></script>
   <title>Русская моча против скальпеля врача</title>
 </head>
 <body>
+<audio autoplay loop>
+    <source src="audio/bg.ogg" type="audio/ogg; codecs=vorbis">
+    <source src="audio/bg.mp3" type="audio/mpeg">
+</audio>
 <div class="wrapper">
   <div class="content">
     <div class="header">
@@ -54,7 +60,7 @@
       </div>
     </div>
 
-    <div class="intro text-center text-yellow" id="intro">
+    <div class="intro text-center text-yellow" id="intro" data-parallax="scroll" data-image-src="img/bg.png">
       <img class="intro-logo" src="img/logo.png" alt="<Лого>">
       <h1 class="title-large">Уринотерапия</h1>
       <h1 class="title-large">Поверь и излечишься!</h1>

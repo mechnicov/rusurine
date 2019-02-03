@@ -1,7 +1,6 @@
 .intro {
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%),
-                    url("../img/bg.png");
+  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
@@ -22,6 +21,6 @@
 .intro .text-lead {
   max-width: 70%;
   margin: 0 15%;
-    text-shadow: #da251d 1px 1px 0, #da251d -1px -1px 0,
+  text-shadow: #da251d 1px 1px 0, #da251d -1px -1px 0,
                #da251d -1px 1px 0, #da251d 1px -1px 0;
 }

@@ -32,3 +32,8 @@
   color: #fffcc8;
   font-weight: bold;
 }
+
+.header-nav-link:hover {
+  text-shadow: #da251d 2px 2px 0;
+  transition: all cubic-bezier(-.01, 1.01, .13, 1.01) .3s;
+}
